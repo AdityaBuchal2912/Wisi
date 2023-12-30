@@ -1,0 +1,45 @@
+.background {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px 0px 220px;
+    position: relative;
+  }
+/* .img{
+    float: left;
+    background-color: yellow;
+} */
+.background.top-bar {
+    background-color: #2e21a4;
+    box-shadow: 0px 0px 6px #0000001f;
+    height: 80px;
+    /* left: 0;
+    position: absolute;
+    top: 0; */
+    width: 100%;
+  }
+
+  .background.element {
+    height: 10px;
+    left: 15px;
+    /* object-fit: cover; */
+    /* position: absolute; */
+    /* top: 19px; */
+    width: 10px;
+    float: left;
+  }
+  
+  .background .title {
+    color: #000000;
+    font-family: "Roboto", Helvetica;
+    font-size: 28px;
+    font-weight: 500;
+    left: 89px;
+    letter-spacing: 0;
+    line-height: 36px;
+    /* position: absolute; */
+    /* top: 21px; */
+    /* width: 1331px; */
+    float: right;
+  }

@@ -1,0 +1,217 @@
+.backgrd { 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .backgrd .form11 {
+   
+    height: 400px;
+    position: relative;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+  }
+  
+  .ExpertId {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 86px;
+    white-space: nowrap;
+    float: left;
+  }
+  
+  .expId{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+
+  }
+
+
+  .ExpName {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 86px;
+    white-space: nowrap;
+    float: left;
+    margin-left: 160px;
+  }
+
+  .expertName{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+
+  }
+
+  .experties {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 86px;
+    white-space: nowrap;
+    float: right;
+    margin-left: 40px;
+  }
+
+  .Experties{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+    float: right;
+  }
+
+  .price {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 155px;
+    white-space: nowrap;
+   
+  }
+ 
+  .Price{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 140px;
+  }
+  
+  .btn01 {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 1000px;
+    white-space: nowrap;
+  }
+
+  .uploadBtn1{
+    background-color: #fdbc0a;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+
+    cursor: pointer;
+    
+  }
+
+  .headerPg{
+    background-color: #832e93;
+    width: 500px;
+    height: 55px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .back{
+    background-color: transparent;
+    border-color: transparent;
+    color: #000000;
+    margin-left: -200px ;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .profilePic {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 230px;
+    white-space: nowrap;
+   
+  }
+ 
+  .fileUp{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 462px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .fileLabel{
+    color: gray;
+    
+  }
+
+  .fileUpd{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 462px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: transparent;
+    background-color: transparent;
+
+  }
+  
+
+  .btn002 {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 300px;
+    white-space: nowrap;
+  }
+
+  .uploadBtn2{
+    background-color: #fdbc0a;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+
+    cursor: pointer;
+    
+  }

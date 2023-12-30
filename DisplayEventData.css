@@ -1,0 +1,41 @@
+.eventDataBack{
+    background-color: #832e93;
+    height: 100vh;
+    text-align: center;
+}
+
+.eventDataContent{
+    background-color: white;
+    width: 600px;
+    border-radius: 5px;
+    border: black solid 2px;
+    align-self: center;
+    margin-left: 550px;
+    
+}
+
+.eventDataHeader{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    font-style: italic;
+
+}
+
+.eventDetailsText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+   
+}
+
+.backBtn{
+    background-color: black;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

@@ -1,0 +1,284 @@
+.backgrd { 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  
+  .backgrd .form1 {
+   
+    height: 640px;
+    position: relative;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* overflow:hidden; */
+  }
+  
+.company {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 86px;
+    white-space: nowrap;
+    float: left;
+  }
+  
+ .empType {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 285px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 165px;
+    white-space: nowrap;
+  }
+  
+  
+  
+ 
+  
+  
+  .companyText{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+
+  }
+
+
+  .titleJob {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 86px;
+    white-space: nowrap;
+    float: left;
+    margin-left: 160px;
+  }
+
+  .location {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 86px;
+    white-space: nowrap;
+    float: right;
+    margin-left: 40px;
+  }
+
+  .job{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+
+  }
+
+
+  .locationText{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+    float: right;
+  }
+
+  .jobFunctions {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 165px;
+    white-space: nowrap;
+   
+  }
+ 
+
+  .addJobFunct{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 200px;
+  }
+  
+  .empTypeBtn{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+  }
+
+
+  .compIndustry {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 250px;
+    white-space: nowrap;
+   
+  }
+
+  .addIndustry{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 200px;
+  }
+
+  .seniority {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 285px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 250px;
+    white-space: nowrap;
+  }
+
+  .seniorityBtn{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .jobDescription {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 350px;
+    white-space: nowrap;
+  }
+
+  .JDText{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 80px;
+    width: 455px;
+  }
+
+  .jobId {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 540px;
+    white-space: nowrap;
+  }
+  .jId{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+
+  }
+
+
+  .btn001 {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 600px;
+    white-space: nowrap;
+  }
+
+  .uploadBtn01{
+    background-color: #fdbc0a;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .headerPg{
+    background-color: #832e93;
+    width: 500px;
+    height: 55px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .back{
+    background-color: transparent;
+    border-color: transparent;
+    color: #000000;
+    margin-left: -200px ;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .Skills {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 470px;
+    white-space: nowrap;
+  }
+
+  .skillText{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 30px;
+    width: 455px;
+  }

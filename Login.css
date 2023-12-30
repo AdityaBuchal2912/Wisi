@@ -1,0 +1,334 @@
+.form {
+    width: 100%;
+    max-width: 595px;
+    height: 608px;
+    margin: 0 auto; /* Center the form horizontally */
+    /* Add any other styling you need */
+    /* color: aqua; */
+  
+}
+
+.bg {
+    align-items: center;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 615px;
+    width: 600px;
+    position: relative;
+    /* background-color: aqua; */
+    
+  }
+  
+  .bg .section-title {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    justify-content: center;
+    padding: 9px 12px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .bg .text {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .bg .element {
+    height: 90px;
+    object-fit: cover;
+    position: relative;
+    width: 105px;
+  }
+  
+  .bg .text-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    justify-content: center;
+    padding: 19px 12px;
+    position: relative;
+    width: 360px;
+    margin-left: 25px;
+  }
+  
+  .bg .div {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 40px;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .bg.title {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Calibri-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .bg .subtitle {
+    align-self: stretch;
+    color: #00000080;
+    font-family: "Calibri-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .bg .input {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    padding: 0px 12px;
+    position: relative;
+    width: 90%;
+  }
+  
+  .bg .title-2 {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Calibri-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .bg .textfield {
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid;
+    border-color: #0000001a;
+    border-radius: 6px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    padding: 8px 12px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .bg .text-2 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #00000080;
+    display: -webkit-box;
+    flex: 1;
+    font-family: "Calibri-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    border-color: transparent;
+  }
+  
+  .bg .text-3 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #00000080;
+    display: -webkit-box;
+    flex: 1;
+    font-family: "Calibri-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-color: transparent;
+  }
+  
+  .bg.btn{
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    padding: 0px 12px;
+    position: relative;
+    width: 250%;
+    
+    
+  }
+  
+  .bg .seconday {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 42px;
+    justify-content: center;
+    padding: 10px 12px;
+    position: relative;
+    /* float: left; */
+    height: 25px;
+    width: 250px;
+    margin-left: -10px; 
+  }
+  
+  .bg .title-3 {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Calibri-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .bg .primary {
+    align-items: center;
+    background-color: #fdbc0a;
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 10px 12px;
+    position: relative;
+    /* float: right; */
+    height: 27px;
+    width: 250px;
+    /* margin-left: 10px; */
+    /* margin-right:-50px ; */
+    
+
+  }
+  
+  .bg .title-4 {
+    color: #000000;
+    font-family: "Calibri-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .bg .button-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px 12px 45px;
+    position: relative;
+    width: 96%;
+    height: 150px;
+    margin-top: 2px;
+    /* background-color:blueviolet; */
+  }
+  
+  .bg.title-wrapper {
+    align-items: center;
+    align-self: stretch;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 12px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .bg .div-wrapper {
+    align-items: center;
+    align-self: stretch;
+    /* background-color: #fdbc0a; */
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 12px;
+    position: relative;
+    width: 95%;
+  }
+  
+  .btn1{
+    border: transparent;
+    border-width: 0%;
+  }
+
+  .SignUpBtn{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border-color: #000000;
+    background-color: transparent;
+
+  }
+
+  .GoogleBtn{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border-color: #000000;
+    background-color: transparent;
+  }
+
+  .FacbookBtn{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #fdbc0a;
+    
+  }
+
+.sidebtn{
+  color: #000000;
+  text-decoration: none;
+}

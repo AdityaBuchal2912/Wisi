@@ -1,0 +1,541 @@
+.backgrd { 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .backgrd .form01 {
+   
+    height: 1050px;
+    position: relative;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+  }
+  
+  .name {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 86px;
+    white-space: nowrap;
+    float: left;
+  }
+  
+ .empType {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 285px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 165px;
+    white-space: nowrap;
+  }
+  
+  .nameText{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+
+  }
+
+
+  .emailEvent {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 86px;
+    white-space: nowrap;
+    float: left;
+    margin-left: 160px;
+  }
+
+  .email{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+
+  }
+
+  .number {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 86px;
+    white-space: nowrap;
+    float: right;
+    margin-left: 40px;
+  }
+
+  .phnNumber{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+    float: right;
+  }
+
+  .eventDetails {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 155px;
+    white-space: nowrap;
+   
+  }
+ 
+  .eventText{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 460px;
+  }
+  
+  .eventDate {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 240px;
+    white-space: nowrap;
+   
+  }
+  .Date{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 30px;
+    width: 140px;
+  }
+  
+  .eventTime {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 175px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 240px;
+    white-space: nowrap;
+   
+  }
+  .time{
+    border-radius: 5px;
+    height: 30px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+
+  }
+
+
+  .eventVenue {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 240px;
+    white-space: nowrap;
+    float: right;
+    margin-left: 40px;
+  }
+
+  .venue{
+    border-radius: 5px;
+    height: 28px;
+    width: 140px;
+    font-family: "Cambay", Helvetica;
+
+  }
+
+
+  .regType {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 320px;
+    white-space: nowrap;
+  }
+
+  .type{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .regFee {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 280px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 320px;
+    white-space: nowrap;
+  }
+
+  .fee{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .addInfo {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 385px;
+    white-space: nowrap;
+  }
+
+  .info{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 460px;
+  }
+
+  .affComp {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 470px;
+    white-space: nowrap;
+  }
+
+  .CompNameAff{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 35px;
+    width: 460px;
+    
+  }
+
+  .jobTitle2 {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 280px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 470px;
+    white-space: nowrap;
+  }
+
+  .jTitle{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .diet {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 550px;
+    white-space: nowrap;
+  }
+
+  .dietBtn{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 35px;
+    width: 205px;
+    text-align: center;
+  }
+
+  .session{
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 280px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 550px;
+    white-space: nowrap;
+  }
+
+  .sessionBtn{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 35px;
+    width: 205px;
+    text-align: center;
+  }
+
+  .EmerPerson {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 630px;
+    white-space: nowrap;
+  }
+
+  .personText{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .EmerContact {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 280px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 630px;
+    white-space: nowrap;
+  }
+
+  .contactText{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+  }
+
+
+  .SpclReq {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 700px;
+    white-space: nowrap;
+   
+  }
+ 
+  .request{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 460px;
+  }
+
+  .SpclAccomodations {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 780px;
+    white-space: nowrap;
+   
+  }
+ 
+  .accomodations{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 460px;
+  }
+
+  .fileUpload {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 855px;
+    white-space: nowrap;
+   
+  }
+ 
+  .fileUp{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 462px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .fileLabel{
+    color: gray;
+    
+  }
+
+  .fileUpd{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 40px;
+    width: 462px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: transparent;
+    background-color: transparent;
+
+  }
+
+
+  .eventId {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 925px;
+    white-space: nowrap;
+  }
+
+  .eventIdText{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+  }
+
+
+  .btn01 {
+    color: #000000;
+    font-family: "Cambay", Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 1000px;
+    white-space: nowrap;
+  }
+
+  .uploadBtn1{
+    background-color: #fdbc0a;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+
+    cursor: pointer;
+    
+  }
+
+  .headerPg{
+    background-color: #832e93;
+    width: 500px;
+    height: 55px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .back{
+    background-color: transparent;
+    border-color: transparent;
+    color: #000000;
+    margin-left: -200px ;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  
